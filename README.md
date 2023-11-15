@@ -39,9 +39,12 @@ You'll know you've installed yarn right if you can run:
 
 ## Quickstart
 
-`git clone `
+`git clone https://github.com/soheilzolfaghari/Auction`
+
 `cd auction`
+
 `cd backend`
+
 `yarn`
 
 ## Usage
