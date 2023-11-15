@@ -1,0 +1,2 @@
+Sepolia testnet
+Auction contract address = 0x8b26E1851D81E5AA62ef58c75Af334254495BFEb 

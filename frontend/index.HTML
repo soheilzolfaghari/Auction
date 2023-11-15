@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Auction DApp</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Auction DApp</h1>
+
+      <div class="auction-section">
+        <div class="section">
+          <div class="button-group">
+            <button id="startButton">Start Auction</button>
+            <button id="endButton">End Auction</button>
+          </div>
+
+          <div id="countdownTimer"></div>
+        </div>
+
+        <div class="section">
+          <div class="input-group"></div>
+          <div class="input-group">
+            <label for="bidAmountInput">Bid Amount (ETH):</label>
+            <input type="text" id="bidAmountInput" />
+          </div>
+          <div class="button-group">
+            <button id="bidButton">Place Bid</button>
+            <button id="withdrawButton">Withdraw Funds</button>
+          </div>
+        </div>
+
+        <div class="section"></div>
+      </div>
+
+      <div class="connect-section">
+        <div class="section">
+          <div class="button-group">
+            <button id="connectButton">Connect Wallet</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
